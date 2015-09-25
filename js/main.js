@@ -15,6 +15,11 @@ $('.close')
 
 $('.submit')
 	.on('click', function(){
-		$('input').addClass("error");
+		$('input').addClass("error");//dont use the comma for non class shit
 	});
+
+$('input')
+	.on('mouseover', function(){
+		$('input').removeClass("error")
+	});//DO NOT TOUCH
 

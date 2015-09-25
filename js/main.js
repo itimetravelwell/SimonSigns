@@ -11,4 +11,10 @@ $('.signin')//if this than that
 $('.close')
 	.on('click', function(){
 		$('.modal').fadeOut("slow");
-});
+});//DONT TOUCH
+
+$('.submit')
+	.on('click', function(){
+		$('input').addClass("error");
+	});
+
